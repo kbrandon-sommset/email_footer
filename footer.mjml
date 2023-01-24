@@ -1,0 +1,85 @@
+<mjml>
+ <mj-head>
+    <!-- Import fonts, external files here -->
+    <mj-font name="Montserrat sans-serif" href="https://fonts.googleapis.com/css?family=Montserrat" />
+    <mj-font name="Lora" href="https://fonts.googleapis.com/css2?family=Lora" />
+    <mj-title>Your Receipt from Sommsation</mj-title>
+    <mj-preview>Your Receipt from Sommsation</mj-preview>
+    <mj-breakpoint width="480px" />
+
+    <mj-attributes>
+      <!-- Global font family -->
+      <mj-all font-family="Montserrat, sans-serif" />
+      <!-- Font sizes -->
+      <mj-class name="x-sm" font-size="12px" />
+      <mj-class name="sm" font-size="14px" />
+      <mj-class name="md" font-size="16px" />
+      <mj-class name="lg" font-size="18px" />
+      <mj-class name="x-lg" font-size="22px" />
+      <!-- Font Weights -->
+      <mj-class name="reg" font-weight="400" />
+      <mj-class name="semi-b" font-weight="600" />
+      <mj-class name="bold" font-weight="700" />
+      <!-- Line Heights -->
+      <mj-class name="address" line-height="24px" />
+      <mj-class name="cost-property" line-height="5px" />
+      <!-- Colors -->
+      <mj-class name="white" color="#fff" />
+      <mj-class name="black" color="#0a0203" />
+      <mj-class name="b600" color="#144e5a" />
+      <!-- Border -->
+      <mj-class name="border" border="2px solid #144e5a" />
+    </mj-attributes>
+
+    <mj-style inline="inline">
+      @media(max-width:480px) {
+        .mobile {
+          text-align: center;
+        }
+      }
+
+      .right-align {
+        text-align: right;
+        float: right;
+      }
+
+      .email {
+        color: #144e5a !important;
+      }
+
+      .buyer-email {
+        color: #0a0203 !important;
+        text-decoration: none !important;
+        text-decoration: none;
+      }
+    </mj-style>
+  </mj-head>
+<mj-body>
+    <mj-section background-color="#ffffff" >
+        <mj-column width="600px">
+        <mj-image src="https://i.ibb.co/PhcSmDb/new-Logo-1.png" href="https://www.sommsation.com" width="175px" alt="Sommsation Logo" align="center"/>
+        <!-- table shoudl go here to house the icons-->
+        <mj-text align="center" font-size="10px" line-height="0">
+            (c) 2023 Sommsation. All rights reserved.
+        </mj-text>
+        <mj-text align="center" font-size="10px" line-height="0">
+            Sommsation, 2 W Market St. 6th Floor, West Chester, Pennsylvanie 19382
+        </mj-text>
+        <mj-text align="center" font-size="10px" line-height="0">
+            *Shipping restrictions may apply based on your location.
+        </mj-text>
+
+        <mj-text align="center" font-size="8px">
+        <a href ="{% unsubscribe_link %}" style="color: #000000;">Unsubscribe</a>
+        </mj-text>
+        </mj-column>
+    </mj-section>
+
+
+
+</mj-body>
+</mjml>
+<!-- 
+https://i.ibb.co/C5wRzLr/16-icon-Linked-IN.png
+https://i.ibb.co/Jt3gmsM/16-icon-IG.png
+https://i.ibb.co/vcLgzq5/16-icon-FB-Sq.png -->
